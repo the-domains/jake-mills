@@ -1,28 +1,40 @@
-name: Jake Mills
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.101
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Jake Mills
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#272727'
-    - '#e7e7e7'
-    - '#c0c0c0'
-    - '#9c9c9c'
-    - '#7f7f7f'
-  brandStrength: 0.4375
-  lightness: 0.6375924425665289
-  saturation: 0.8415065223816782
-  rhythmicContrast: 0.2707475363276899
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8426423
+  brandStrength: 1
+  lightness: 0.6331901
+  brandColors:
+    - '#B0C6D5'
+    - '#F4FEFF'
+    - '#253863'
+    - '#1A1309'
+    - '#FF514C'
+  rhythmicContrast: 0.2707475
+typography_spectrum: 0.1197637
+layout_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
